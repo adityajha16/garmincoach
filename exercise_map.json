@@ -1,0 +1,357 @@
+{
+  "_comment": "Maps common exercise names to Garmin exercise categories and names",
+  "_usage": "Keys are lowercase normalized names, values have garmin_name and category",
+
+  "exercises": {
+    "bench press": {
+      "garmin_name": "BENCH_PRESS",
+      "garmin_category": "BENCH_PRESS",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "barbell bench press": {
+      "garmin_name": "BARBELL_BENCH_PRESS",
+      "garmin_category": "BENCH_PRESS",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "dumbbell bench press": {
+      "garmin_name": "DUMBBELL_BENCH_PRESS",
+      "garmin_category": "BENCH_PRESS",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "incline bench press": {
+      "garmin_name": "INCLINE_DUMBBELL_BENCH_PRESS",
+      "garmin_category": "BENCH_PRESS",
+      "muscles": ["chest", "shoulders"]
+    },
+    "incline dumbbell press": {
+      "garmin_name": "INCLINE_DUMBBELL_BENCH_PRESS",
+      "garmin_category": "BENCH_PRESS",
+      "muscles": ["chest", "shoulders"]
+    },
+    "overhead press": {
+      "garmin_name": "OVERHEAD_PRESS",
+      "garmin_category": "SHOULDER_PRESS",
+      "muscles": ["shoulders", "triceps"]
+    },
+    "shoulder press": {
+      "garmin_name": "OVERHEAD_PRESS",
+      "garmin_category": "SHOULDER_PRESS",
+      "muscles": ["shoulders", "triceps"]
+    },
+    "military press": {
+      "garmin_name": "OVERHEAD_PRESS",
+      "garmin_category": "SHOULDER_PRESS",
+      "muscles": ["shoulders", "triceps"]
+    },
+    "dumbbell shoulder press": {
+      "garmin_name": "DUMBBELL_SHOULDER_PRESS",
+      "garmin_category": "SHOULDER_PRESS",
+      "muscles": ["shoulders", "triceps"]
+    },
+    "dips": {
+      "garmin_name": "DIPS",
+      "garmin_category": "DIP",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "tricep dips": {
+      "garmin_name": "BENCH_DIP",
+      "garmin_category": "DIP",
+      "muscles": ["triceps"]
+    },
+    "push ups": {
+      "garmin_name": "PUSH_UP",
+      "garmin_category": "PUSH_UP",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "push-ups": {
+      "garmin_name": "PUSH_UP",
+      "garmin_category": "PUSH_UP",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+    "pushups": {
+      "garmin_name": "PUSH_UP",
+      "garmin_category": "PUSH_UP",
+      "muscles": ["chest", "triceps", "shoulders"]
+    },
+
+    "pull ups": {
+      "garmin_name": "PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "pull-ups": {
+      "garmin_name": "PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "pullups": {
+      "garmin_name": "PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "chin ups": {
+      "garmin_name": "CHIN_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "chin-ups": {
+      "garmin_name": "CHIN_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "assisted pull ups": {
+      "garmin_name": "ASSISTED_PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "band assisted pull ups": {
+      "garmin_name": "ASSISTED_PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "negative pull ups": {
+      "garmin_name": "PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "biceps"]
+    },
+    "barbell row": {
+      "garmin_name": "BARBELL_ROW",
+      "garmin_category": "ROW",
+      "muscles": ["back", "biceps"]
+    },
+    "bent over row": {
+      "garmin_name": "BARBELL_ROW",
+      "garmin_category": "ROW",
+      "muscles": ["back", "biceps"]
+    },
+    "dumbbell row": {
+      "garmin_name": "DUMBBELL_ROW",
+      "garmin_category": "ROW",
+      "muscles": ["back", "biceps"]
+    },
+    "cable row": {
+      "garmin_name": "SEATED_CABLE_ROW",
+      "garmin_category": "ROW",
+      "muscles": ["back", "biceps"]
+    },
+    "seated cable row": {
+      "garmin_name": "SEATED_CABLE_ROW",
+      "garmin_category": "ROW",
+      "muscles": ["back", "biceps"]
+    },
+    "lat pulldown": {
+      "garmin_name": "LAT_PULL_DOWN",
+      "garmin_category": "LAT_PULL",
+      "muscles": ["back", "biceps"]
+    },
+    "lat pull down": {
+      "garmin_name": "LAT_PULL_DOWN",
+      "garmin_category": "LAT_PULL",
+      "muscles": ["back", "biceps"]
+    },
+    "deadlift": {
+      "garmin_name": "DEADLIFT",
+      "garmin_category": "DEADLIFT",
+      "muscles": ["back", "hamstrings", "glutes"]
+    },
+    "romanian deadlift": {
+      "garmin_name": "ROMANIAN_DEADLIFT",
+      "garmin_category": "DEADLIFT",
+      "muscles": ["hamstrings", "glutes", "back"]
+    },
+    "rdl": {
+      "garmin_name": "ROMANIAN_DEADLIFT",
+      "garmin_category": "DEADLIFT",
+      "muscles": ["hamstrings", "glutes", "back"]
+    },
+    "farmer carry": {
+      "garmin_name": "FARMERS_WALK",
+      "garmin_category": "CARRY",
+      "muscles": ["forearms", "core", "traps"]
+    },
+    "farmers walk": {
+      "garmin_name": "FARMERS_WALK",
+      "garmin_category": "CARRY",
+      "muscles": ["forearms", "core", "traps"]
+    },
+    "dead hang": {
+      "garmin_name": "DEAD_HANG",
+      "garmin_category": "PULL_UP",
+      "muscles": ["forearms", "shoulders"]
+    },
+
+    "squat": {
+      "garmin_name": "SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes", "hamstrings"]
+    },
+    "barbell squat": {
+      "garmin_name": "BARBELL_SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes", "hamstrings"]
+    },
+    "back squat": {
+      "garmin_name": "BARBELL_SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes", "hamstrings"]
+    },
+    "front squat": {
+      "garmin_name": "FRONT_SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes", "core"]
+    },
+    "goblet squat": {
+      "garmin_name": "GOBLET_SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "bodyweight squat": {
+      "garmin_name": "BODYWEIGHT_SQUAT",
+      "garmin_category": "SQUAT",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "split squat": {
+      "garmin_name": "SPLIT_SQUAT",
+      "garmin_category": "LUNGE",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "bulgarian split squat": {
+      "garmin_name": "BULGARIAN_SPLIT_SQUAT",
+      "garmin_category": "LUNGE",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "lunge": {
+      "garmin_name": "LUNGE",
+      "garmin_category": "LUNGE",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "lunges": {
+      "garmin_name": "LUNGE",
+      "garmin_category": "LUNGE",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "walking lunge": {
+      "garmin_name": "WALKING_LUNGE",
+      "garmin_category": "LUNGE",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "leg press": {
+      "garmin_name": "LEG_PRESS",
+      "garmin_category": "LEG_PRESS",
+      "muscles": ["quadriceps", "glutes"]
+    },
+    "calf raise": {
+      "garmin_name": "CALF_RAISE",
+      "garmin_category": "CALF_RAISE",
+      "muscles": ["calves"]
+    },
+    "calf raises": {
+      "garmin_name": "CALF_RAISE",
+      "garmin_category": "CALF_RAISE",
+      "muscles": ["calves"]
+    },
+    "leg curl": {
+      "garmin_name": "LEG_CURL",
+      "garmin_category": "LEG_CURL",
+      "muscles": ["hamstrings"]
+    },
+    "leg extension": {
+      "garmin_name": "LEG_EXTENSION",
+      "garmin_category": "LEG_CURL",
+      "muscles": ["quadriceps"]
+    },
+
+    "plank": {
+      "garmin_name": "PLANK",
+      "garmin_category": "PLANK",
+      "muscles": ["core"]
+    },
+    "side plank": {
+      "garmin_name": "SIDE_PLANK",
+      "garmin_category": "PLANK",
+      "muscles": ["core", "obliques"]
+    },
+    "crunch": {
+      "garmin_name": "CRUNCH",
+      "garmin_category": "CRUNCH",
+      "muscles": ["core"]
+    },
+    "bicycle crunch": {
+      "garmin_name": "BICYCLE_CRUNCH",
+      "garmin_category": "CRUNCH",
+      "muscles": ["core", "obliques"]
+    },
+
+    "bicep curl": {
+      "garmin_name": "BICEP_CURL",
+      "garmin_category": "CURL",
+      "muscles": ["biceps"]
+    },
+    "dumbbell curl": {
+      "garmin_name": "DUMBBELL_BICEP_CURL",
+      "garmin_category": "CURL",
+      "muscles": ["biceps"]
+    },
+    "hammer curl": {
+      "garmin_name": "HAMMER_CURL",
+      "garmin_category": "CURL",
+      "muscles": ["biceps", "forearms"]
+    },
+    "tricep extension": {
+      "garmin_name": "TRICEP_EXTENSION",
+      "garmin_category": "TRICEPS_EXTENSION",
+      "muscles": ["triceps"]
+    },
+    "skull crusher": {
+      "garmin_name": "LYING_TRICEP_EXTENSION",
+      "garmin_category": "TRICEPS_EXTENSION",
+      "muscles": ["triceps"]
+    },
+    "lateral raise": {
+      "garmin_name": "LATERAL_RAISE",
+      "garmin_category": "LATERAL_RAISE",
+      "muscles": ["shoulders"]
+    },
+    "face pull": {
+      "garmin_name": "FACE_PULL",
+      "garmin_category": "ROW",
+      "muscles": ["rear delts", "traps"]
+    },
+    "shrug": {
+      "garmin_name": "SHRUG",
+      "garmin_category": "SHRUG",
+      "muscles": ["traps"]
+    },
+
+    "scap pull": {
+      "garmin_name": "SCAPULAR_PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "shoulders"]
+    },
+    "scap pulls": {
+      "garmin_name": "SCAPULAR_PULL_UP",
+      "garmin_category": "PULL_UP",
+      "muscles": ["back", "shoulders"]
+    },
+    "scap push up": {
+      "garmin_name": "PUSH_UP",
+      "garmin_category": "PUSH_UP",
+      "muscles": ["shoulders", "chest"]
+    },
+    "arm circles": {
+      "garmin_name": "ARM_CIRCLE",
+      "garmin_category": "WARM_UP",
+      "muscles": ["shoulders"]
+    },
+    "leg swing": {
+      "garmin_name": "LEG_SWING",
+      "garmin_category": "WARM_UP",
+      "muscles": ["hips"]
+    },
+    "leg swings": {
+      "garmin_name": "LEG_SWING",
+      "garmin_category": "WARM_UP",
+      "muscles": ["hips"]
+    }
+  }
+}

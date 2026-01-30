@@ -1,0 +1,14 @@
+# Credentials - never commit
+.env
+.garmin_tokens
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
